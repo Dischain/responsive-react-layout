@@ -17,8 +17,8 @@ export default class Layout extends React.Component {
       <div className={'row-offcanvas row-offcanvas-left'}>
         <Navbar />
         <Sidebar />
-        <div id='main'>
-          <div className={'col-md-12'}>
+        <div className={'col-md-12'}>
+          <div id='main'>
             <h3>Fixed navbar + fixed sidebar on Bootstrap and React.js</h3>              
             <Footer />
           </div>

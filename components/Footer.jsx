@@ -9,7 +9,9 @@ export default class Footer extends React.Component {
 
   render() {
     return (
-      <footer>Footer</footer>
+      <footer className={'footer'}>
+        <p className={'text-muted'}>Footer</p>
+      </footer>
     );
   }
 }
